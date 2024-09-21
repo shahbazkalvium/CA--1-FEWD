@@ -1,0 +1,30 @@
+body{
+    background-color :#121212;
+    font-family: "Roboto",sans-serif;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+ .sidebar .menu table{
+    color:white;
+    width: 30px;  
+}
+.sidebar .menu table tr th img {
+   left: 0px;
+   
+}
+.home {
+  text-align: center;
+  color: black;
+  margin-top: -400px;
+  width: auto;
+ 
+}
+.sidebar{
+    color:white;
+}
+.sidebar .menu tr th img{
+    left: 0;
+}
