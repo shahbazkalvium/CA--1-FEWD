@@ -1,0 +1,206 @@
+body{
+    background-color: #121212;
+}
+.sidebar{
+    color: white;
+}
+input[type="text"]{
+    position: relative;
+    width:450px;
+    top:0px;
+    left:350px;
+}
+.search{
+    position: relative;
+    top: 23px;
+    left:830px;
+
+}
+
+#three{
+    position:absolute;
+    line-height:10px;
+    border-color: rgba(250, 235, 215, 0.249);
+    top: 70px;
+    left: 150px;
+    
+}
+
+.button1{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 170px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+
+.button3{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 220px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button2{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 320px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button4{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 380px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button5{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 450px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button6{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 540px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button7{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 600px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button8{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 700px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button9{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 770px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button10{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 860px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button11{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 1030px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.button12{
+    position: absolute;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+    top: 100px;
+    left: 1150px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+.Img{
+    position:absolute;
+    left: 1140px;
+    top:100px;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color:rgba(128, 128, 128, 0.233);
+}
+#four{
+    position:absolute;
+    line-height:10px;
+    border-color: rgba(250, 235, 215, 0.395);
+    top: 150px;
+    left: 150px;
+
+}
+
+.video{
+    position: absolute;
+    left:200px;
+    top: 170px;
+    border-spacing :100px;
+    color: white;
+    text-align: 20px;
+    
+
+}
+.videoa{
+    position: absolute;
+    left:200px;
+    top: 370px;
+}
+
+.videob{
+    position: absolute;
+    left: 200px;
+    top: 570px;
+    right: 200px;
+}
+
+.pannel{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+}
