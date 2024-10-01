@@ -1,206 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #121212;
-}
-.sidebar{
+    background-color: rgb(17, 17, 17);
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
-input[type="text"]{
-    position: relative;
-    width:450px;
-    top:0px;
-    left:350px;
+.container{
+    display: flex;
+    flex: 1;
+}
+.navbar{
+    background-color: rgb(27, 27, 27);
+    width: 280px;
+    padding-right: 10px;
+
+}
+
+.navbar li{
+    padding:7px;
+
+}
+
+
+.logo{
+    padding: 15px 15px;
+    display: flex;
+}
+
+#main_logo{
+    padding-left: 15px;
+    width: 110px;
+}
+
+#ham{
+    width: 25px;
+}
+
+ul{
+    padding: 5px 20px;
+    list-style-type: none;
+}
+li{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+
+.subscription p{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1rem;
+    color: rgb(188, 188, 188);
+}
+
+label{
+    padding: 10px;
+}
+
+.lib{
+    padding: 5px;
+}
+
+hr{
+    border-color: rgb(84, 84, 84);
+}
+
+.main_content{
+    flex: 1;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.box{
+    width: 700px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(67, 67, 67);
+    font-size: 15px;
 }
 .search{
-    position: relative;
-    top: 23px;
-    left:830px;
-
+    background-color: rgb(31, 31, 31);
+    border: none;
+    display: inline-flex;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 40px;
+    align-items: center;
+    margin: 0;
+    border-radius: 2px;
+}
+.top_left{
+    display: flex;
+    padding-left: 150px;
+}
+.mic{
+    height: 30px;
+    margin: 8px;
 }
 
-#three{
-    position:absolute;
-    line-height:10px;
-    border-color: rgba(250, 235, 215, 0.249);
-    top: 70px;
-    left: 150px;
-    
+
+.top_right img{
+    padding: 8px;
 }
 
-.button1{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 170px;
-    border-radius: 7px;
+.exp a{
+    background-color: rgb(39, 39, 39);
+    color:white;
     padding: 10px;
-    margin: 4px 2px;
+    border-radius: 18px;
+    margin-right:20px;
 }
 
-.button3{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 220px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button2{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 320px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button4{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 380px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button5{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 450px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button6{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 540px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button7{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 600px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button8{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 700px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button9{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 770px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button10{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 860px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button11{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 1030px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.button12{
-    position: absolute;
-    margin-left: 10px;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-    top: 100px;
-    left: 1150px;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 4px 2px;
-}
-.Img{
-    position:absolute;
-    left: 1140px;
-    top:100px;
-    border-radius: 50%;
-    color: aliceblue;
-    background-color:rgba(128, 128, 128, 0.233);
-}
-#four{
-    position:absolute;
-    line-height:10px;
-    border-color: rgba(250, 235, 215, 0.395);
-    top: 150px;
-    left: 150px;
-
+.exp{
+    padding-bottom: 18px;
+    padding-top: 8px;
 }
 
-.video{
-    position: absolute;
-    left:200px;
-    top: 170px;
-    border-spacing :100px;
-    color: white;
-    text-align: 20px;
-    
-
-}
-.videoa{
-    position: absolute;
-    left:200px;
-    top: 370px;
+.main_container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
 }
 
-.videob{
-    position: absolute;
-    left: 200px;
-    top: 570px;
-    right: 200px;
+.thumb1{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.pannel{
-    position: absolute;
-    top: 10px;
-    left: 1100px;
+#thumb{
+    width: 100%;
+}
+
+.video_info{
+    margin-top: 10px;
+}
+
+.video_info p{
+    font-size: 16px;
+}
+.thumb1 p{
+    color: grey;
+}
+@media (max-width:600px){
+    .navbar label{
+        display: none;
+    }
+
+    .navbar{
+        width: 70px;
+    }
+    .top_right{
+        display: none;
+    }
+    .mic{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .search{
+        padding: 0px;
+        margin: 0px;
+    }
+    .thumb1{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1500px){
+    .top_right{
+        display: none;
+    }
+
 }
